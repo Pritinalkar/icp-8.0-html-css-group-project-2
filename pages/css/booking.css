@@ -1,0 +1,51 @@
+.logo-booking{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    box-shadow: 0 0 5px 0 gray;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    box-shadow: 0 0 10px 0 rgb(167, 165, 165);
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    color: #000;
+    display: block;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.info-container-booking {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-bottom: 2px solid gray;
+}
+
+.booking-form-title {
+    color: #000;
+    padding: 20px;
+    display: inline-block;
+}
+
+.booking-btn {
+    margin: 20px auto;
+    display: block;
+    color: #fff;
+    background-color: rgb(0, 94, 255);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
