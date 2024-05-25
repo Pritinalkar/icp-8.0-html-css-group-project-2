@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.tiket-container-main{
+    border: 1px solid rgb(238, 231, 231);
+    box-shadow: 0 0 10px 0 rgb(119, 115, 115);
+    height:fit-content;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.tiket-title{
+text-align: center;
+font-size: 25px;
+font-weight: 600;
+display: block;
+
+}
+.tiket-logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px gray;
+}
+.tiket-place{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid gray;
+}
+.tiket-place-part{
+    height: 120px;
+    width: 270px;
+    padding: 5px;
+}
+.titket-place-here{
+    font-size: 17px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+.tiket-place-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.tiket-place-sub-title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.tiket-air-no{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    color: rgb(14, 158, 151);
+    padding: 2px;
+}
+.titket-place-distance{
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    padding: 1px;
+}
+.tiket-passanger-title{
+    font-size: 20px ;
+    font-weight: bold;
+    display: block;
+    height: 24px;
+}
+.tiket-persanal-details{
+    font-size: 15px;
+    display: block ;
+    text-align: center;
+    padding: 3px;
+}
+.border-tiket-title{
+    border-bottom: 2px solid rgb(22, 21, 21);
+    width: 175px;
+}
+.titket-place-payment{
+    font-size: 13px;
+    display: block;
+    font-weight: 400;
+    text-align: start;
+    padding: 5px;
+}
+.tiket-scanner{
+    height: 115px ;
+    width: 150px;
+}
+.scanner-tiket{
+    height: 115px ;
+    width: 150px;
+}
